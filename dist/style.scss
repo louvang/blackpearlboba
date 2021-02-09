@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;700&display=swap');
+
+body {
+  font-family: 'Karma', serif;
+  margin: 0;
+  background-image: url(img/bg-waves.jpg);
+}
+
+a {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ff9478;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffdaaa;
+}
+
+#content {
+  display: grid;
+  align-content: space-evenly;
+}
+
+header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lexend Mega';
+  text-transform: uppercase;
+
+  #logo {
+    text-align: center;
+    font-size: 1.5rem;
+
+    img {
+      margin: 0 auto 1rem;
+      max-width: 150px;
+      display: block;
+    }
+  }
+
+  div {
+    width: 33%;
+  }
+
+  .left-nav,
+  .right-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+  }
+
+  a {
+    font-family: 'Lexend Mega', sans-serif;
+    padding: 15px 18px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+
+  a:hover {
+    background-color: #ffdaaa;
+    transition: 0.5s ease-in-out;
+    color: #fff;
+  }
+
+  a.selected {
+    color: #fff;
+    background-color: #ff9478;
+  }
+}
+
+.container {
+  margin: 1rem auto;
+  padding: 2rem 30px;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 30px;
+
+  img {
+    width: 100%;
+    border-radius: 40px;
+  }
+
+  .splash {
+    width: 500px;
+  }
+}
+
+#home {
+  text-align: center;
+}
+
+footer {
+  margin: 1rem auto 2rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+
+  div {
+    width: 50%;
+  }
+
+  .right-footer {
+    text-align: right;
+
+    .fab {
+      margin-left: 8px;
+    }
+  }
+}
+
+p {
+  font-size: 14pt;
+}
+
+.landing-head {
+  width: 90%;
+  max-width: 300px;
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+}
+
+.landing-p {
+  width: 450px;
+  margin: 0 auto 1rem;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+#menu {
+  display: flex;
+
+  div {
+    width: 50%;
+    text-align: center;
+
+    h2 {
+      margin: 2rem auto 0rem;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
