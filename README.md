@@ -2,7 +2,7 @@
 
 A simple webpage for a restaurant/cafe.
 
-<p align="center"><a href="https://louvang.github.io/blackpearlboba/" target="_blank"><img src="https://louvang.github.io/blackpearlboba/img/preview.jpg" alt="Black Pearl Boba Preview" width="750px" /></a></p>
+<p align="center"><a href="https://louvang.github.io/blackpearlboba/" target="_blank"><img src="https://raw.githubusercontent.com/louvang/blackpearlboba/main/dist/img/preview.jpg" alt="Black Pearl Boba Preview" width="750px" /></a></p>
 
 ## About Code
 
